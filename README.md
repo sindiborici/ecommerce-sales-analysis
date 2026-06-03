@@ -145,4 +145,4 @@ SELECT * FROM ranked WHERE rank_in_country <= 3 ORDER BY country, rank_in_countr
 ## Author
 
 **Sindi Borici** — early-career software engineer, MSc Software Engineering (in progress).
-Durrës, Albania · [LinkedIn](https://www.linkedin.com/in/sindi-borici/) · sindiborici12@gmail.com
+Durrës, Albania · (www.linkedin.com/in/sindi-borici-5a884b2b7) · sindiborici12@gmail.com
