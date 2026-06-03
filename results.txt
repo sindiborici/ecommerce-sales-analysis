@@ -1,0 +1,168 @@
+
+==============================================================================
+Q1. Top 10 best-selling products by revenue
+==============================================================================
+   product_name    category  units_sold  revenue
+   Headphones A Electronics          69 84066.24
+   Smartphone B Electronics          71 73737.78
+       Camera B Electronics          58 70035.98
+       Tablet A Electronics          60 64346.10
+   Smartwatch A Electronics          69 55633.47
+   Smartphone A Electronics          55 51582.84
+       Laptop B Electronics          64 49304.85
+Tennis Racket B      Sports          79 48061.21
+      Bicycle B      Sports          57 43181.07
+    Dumbbells A      Sports          59 42736.53
+
+==============================================================================
+Q2. Monthly revenue trend
+==============================================================================
+  month  num_orders  revenue
+2023-01           1  3062.30
+2023-02           3  1448.09
+2023-03           6  6869.22
+2023-04          12  9641.33
+2023-05          10  6508.59
+2023-06          14  6019.84
+2023-07          17 19826.71
+2023-08          16  6756.45
+2023-09          20 14540.55
+2023-10          24 16256.03
+2023-11          32 18638.43
+2023-12          30 20289.95
+2024-01          42 42368.27
+2024-02          34 27433.65
+2024-03          29 25808.20
+2024-04          43 38131.60
+2024-05          52 38369.24
+2024-06          34 38644.06
+2024-07          51 39841.93
+2024-08          42 35571.82
+2024-09          47 40936.42
+2024-10          69 57590.42
+2024-11          63 58823.17
+2024-12          65 51027.95
+2025-01          62 53364.80
+2025-02          55 43417.57
+2025-03          64 45791.49
+2025-04          65 65113.25
+2025-05          45 36422.91
+2025-06          55 48653.92
+2025-07          47 38781.18
+2025-08          47 42485.35
+2025-09          39 26080.64
+2025-10          41 40596.68
+2025-11          31 29672.82
+
+==============================================================================
+Q3. Revenue by country and segment
+==============================================================================
+    country  segment  orders   revenue
+    Germany Consumer     154 114777.47
+Netherlands Consumer     128 100057.05
+    Albania Consumer      88  94477.26
+     France Consumer      88  90983.74
+      Italy Consumer     111  81749.51
+        USA Consumer      78  73330.37
+      Italy Business      81  71394.63
+    Germany Business      80  66326.09
+     France Business      55  57647.24
+         UK Consumer      51  52342.38
+      Spain Consumer      66  48468.82
+Netherlands Business      63  40081.72
+         UK Business      50  37972.69
+        USA Business      46  36242.90
+      Spain Business      29  31031.29
+        USA  Premium      20  19835.10
+      Spain  Premium      21  19832.46
+    Albania Business      31  17368.65
+Netherlands  Premium      14  13241.40
+      Italy  Premium      18  10363.68
+    Germany  Premium      15   8427.90
+     France  Premium      12   5294.45
+         UK  Premium       8   3538.03
+
+==============================================================================
+Q4. Top 20 customers by lifetime value
+==============================================================================
+ customer_id customer_name     country  segment  total_orders  lifetime_value
+         174 Customer_0174       Italy Business            10        14133.09
+          48 Customer_0048     Germany Consumer            13        13683.95
+          93 Customer_0093         USA Consumer            11        13663.46
+          53 Customer_0053      France Business            12        13596.06
+         105 Customer_0105         USA Consumer            10        13478.03
+         137 Customer_0137       Spain Business            13        13354.42
+         139 Customer_0139       Italy Business            12        13307.26
+          96 Customer_0096     Germany Business            10        13094.24
+         116 Customer_0116 Netherlands  Premium             9        12547.48
+         130 Customer_0130         USA Consumer            12        12537.68
+         169 Customer_0169     Germany Consumer            12        12476.27
+         158 Customer_0158     Germany Consumer             9        12083.01
+         179 Customer_0179         USA  Premium            10        11638.84
+          85 Customer_0085     Germany Business            14        11395.17
+         157 Customer_0157     Albania Consumer             6        11312.36
+          79 Customer_0079     Albania Consumer             7        11051.15
+          86 Customer_0086 Netherlands Consumer            11        10961.28
+          38 Customer_0038     Germany Business            10        10919.90
+         171 Customer_0171 Netherlands Consumer             9        10847.92
+          33 Customer_0033     Albania Consumer             7        10611.06
+
+==============================================================================
+Q5. Category profit margin
+==============================================================================
+      category  units_sold   revenue    profit  margin_pct
+   Electronics         745 586317.02 229923.29       39.21
+        Sports         625 267023.83 126447.43       47.35
+Home & Kitchen         576 110960.22  50236.46       45.27
+      Clothing         677  68879.11  30484.07       44.26
+        Beauty         626  38907.25  16798.73       43.18
+         Books         579  22697.40  10255.97       45.19
+
+==============================================================================
+Q6. Cancellation and return rate by category
+==============================================================================
+      category  total_orders  cancelled  returned  return_rate_pct
+        Beauty           485         33        42             8.66
+      Clothing           537         47        43             8.01
+Home & Kitchen           474         27        35             7.38
+         Books           471         32        34             7.22
+        Sports           467         34        28             6.00
+   Electronics           559         44        20             3.58
+
+==============================================================================
+Q7. Top 3 customers per country (window function)
+==============================================================================
+    country customer_name  total_spent  rank_in_country
+    Albania Customer_0157     11312.36                1
+    Albania Customer_0079     11051.15                2
+    Albania Customer_0033     10611.06                3
+     France Customer_0053     13596.06                1
+     France Customer_0020     10223.89                2
+     France Customer_0057      9958.28                3
+    Germany Customer_0048     13683.95                1
+    Germany Customer_0096     13094.24                2
+    Germany Customer_0169     12476.27                3
+      Italy Customer_0174     14133.09                1
+      Italy Customer_0139     13307.26                2
+      Italy Customer_0095      9256.89                3
+Netherlands Customer_0116     12547.48                1
+Netherlands Customer_0086     10961.28                2
+Netherlands Customer_0171     10847.92                3
+      Spain Customer_0137     13354.42                1
+      Spain Customer_0090      9359.66                2
+      Spain Customer_0159      8588.99                3
+         UK Customer_0091      7881.45                1
+         UK Customer_0076      7204.96                2
+         UK Customer_0062      6983.95                3
+        USA Customer_0093     13663.46                1
+        USA Customer_0105     13478.03                2
+        USA Customer_0130     12537.68                3
+
+==============================================================================
+Q8. Customer loyalty buckets
+==============================================================================
+      customer_type  num_customers  avg_lifetime_value
+        1. One-time              2              656.03
+2. Occasional (2-4)             46             2804.80
+   3. Regular (5-9)            118             5556.85
+     4. Loyal (10+)             32             9648.25

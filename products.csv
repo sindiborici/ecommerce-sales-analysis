@@ -1,0 +1,65 @@
+product_id,product_name,category,price,cost
+1,Laptop A,Electronics,688.3,351.84
+2,Laptop B,Electronics,798.46,401.12
+3,Headphones A,Electronics,1286.4,831.91
+4,Headphones B,Electronics,229.87,158.2
+5,Smartphone A,Electronics,982.53,637.28
+6,Smartphone B,Electronics,1084.38,575.42
+7,Tablet A,Electronics,1121.99,773.77
+8,Tablet B,Electronics,463.52,297.79
+9,Smartwatch A,Electronics,844.21,460.14
+10,Smartwatch B,Electronics,698.52,432.6
+11,Camera A,Electronics,461.12,302.27
+12,Camera B,Electronics,1259.64,536.61
+13,Coffee Maker A,Home & Kitchen,356.2,168.54
+14,Coffee Maker B,Home & Kitchen,201.94,117.75
+15,Blender A,Home & Kitchen,170.23,69.56
+16,Blender B,Home & Kitchen,344.85,156.75
+17,Toaster A,Home & Kitchen,108.48,69.36
+18,Toaster B,Home & Kitchen,155.93,103.55
+19,Vacuum Cleaner A,Home & Kitchen,289.44,139.76
+20,Vacuum Cleaner B,Home & Kitchen,33.76,23.11
+21,Air Fryer A,Home & Kitchen,61.68,38.0
+22,Air Fryer B,Home & Kitchen,210.77,132.25
+23,T-Shirt A,Clothing,144.31,85.69
+24,T-Shirt B,Clothing,108.35,69.11
+25,Jeans A,Clothing,36.75,17.14
+26,Jeans B,Clothing,144.52,71.08
+27,Jacket A,Clothing,124.68,67.57
+28,Jacket B,Clothing,115.57,60.98
+29,Sneakers A,Clothing,154.27,77.02
+30,Sneakers B,Clothing,146.51,70.51
+31,Dress A,Clothing,65.25,28.46
+32,Dress B,Clothing,54.67,23.83
+33,Hoodie A,Clothing,116.46,73.21
+34,Hoodie B,Clothing,53.33,24.79
+35,Novel A,Books,34.21,21.12
+36,Novel B,Books,58.83,32.79
+37,Cookbook A,Books,24.15,10.39
+38,Cookbook B,Books,19.71,9.23
+39,Biography A,Books,18.97,7.67
+40,Biography B,Books,36.71,17.7
+41,Self-Help Book A,Books,58.71,33.23
+42,Self-Help Book B,Books,44.87,19.65
+43,Textbook A,Books,53.42,29.23
+44,Textbook B,Books,53.64,30.69
+45,Yoga Mat A,Sports,383.48,204.07
+46,Yoga Mat B,Sports,159.73,66.35
+47,Dumbbells A,Sports,753.73,409.52
+48,Dumbbells B,Sports,660.36,343.53
+49,Running Shoes A,Sports,73.15,43.07
+50,Running Shoes B,Sports,57.08,25.39
+51,Bicycle A,Sports,456.83,224.37
+52,Bicycle B,Sports,795.23,346.35
+53,Tennis Racket A,Sports,615.09,357.92
+54,Tennis Racket B,Sports,635.73,297.33
+55,Perfume A,Beauty,66.53,35.6
+56,Perfume B,Beauty,57.58,37.89
+57,Lipstick A,Beauty,118.88,58.44
+58,Lipstick B,Beauty,77.56,45.21
+59,Shampoo A,Beauty,90.89,62.19
+60,Shampoo B,Beauty,31.27,14.49
+61,Face Cream A,Beauty,81.97,36.65
+62,Face Cream B,Beauty,27.47,11.61
+63,Hair Dryer A,Beauty,8.3,4.44
+64,Hair Dryer B,Beauty,74.51,36.31
